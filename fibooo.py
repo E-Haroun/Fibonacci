@@ -16,8 +16,7 @@ def repeat(T, f, N, A, S, k):
 import turtle
 my_window = turtle.Screen() 
 my_window.bgcolor("black")
-#my_window.size("1920*1080")
-turtle.Pen().width(800)
+turtle.pen(pensize=1)
 turtle.color("#ff5733")
 turtle.speed("fastest")     
 repeat(turtle, square, 108, 10, 200, 0.97)
